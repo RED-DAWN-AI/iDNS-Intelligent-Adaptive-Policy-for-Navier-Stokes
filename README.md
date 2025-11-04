@@ -17,9 +17,9 @@ Implements the **SENTINEL solver** for adaptive time-lifted stability, spectral 
 ## 🔹 Reference Papers
 | Paper | Description | Local PDF | Online Link |
 |:--|:--|:--|:--|
-| **Spectral Continuation and Weak–Strong Compatibility** | Fourier continuation operator and Leray–Hopf consistency. | [📄 PDF](docs/Spectral_Method_T3.pdf) | [🔗 recursion-intelligence.org/post-bio-ai-epistemics-v2n1-009a.html](https://recursion-intelligence.org/post-bio-ai-epistemics-v2n1-009a.html) |
-| **Temporal Lifting as Latent-Space Regularization** | Adaptive time-scaling for latent and PDE models. | [📄 PDF](docs/Temporal_Lift-AI-CS-stamped.pdf) | [🔗 doi.org/10.48550/arXiv.2510.09805](https://doi.org/10.48550/arXiv.2510.09805) |
-| **Neural-Inspired Spectral–Temporal Continuation** | Unified SC + TL global smoothness construction. | [📄 PDF](docs/arxiv-stamp-Neural-Inspired%20Spectral-Temporal.pdf) | [🔗 recursion-intelligence.org/post-bio-ai-epistemics-v1n2-010a.html](https://recursion-intelligence.org/post-bio-ai-epistemics-v1n2-010a.html) |
+| **Spectral Continuation and Weak–Strong Compatibility** | Fourier continuation operator and Leray–Hopf consistency. | [📄 PDF](Spectral_Method_T3.pdf) | [🔗 recursion-intelligence.org/post-bio-ai-epistemics-v2n1-009a.html](https://recursion-intelligence.org/post-bio-ai-epistemics-v2n1-009a.html) |
+| **Temporal Lifting as Latent-Space Regularization** | Adaptive time-scaling for latent and PDE models. | [📄 PDF](Temporal_Lift-AI-CS-stamped.pdf) | [🔗 doi.org/10.48550/arXiv.2510.09805](https://doi.org/10.48550/arXiv.2510.09805) |
+| **Neural-Inspired Spectral–Temporal Continuation** | Unified SC + TL global smoothness construction. | [📄 PDF](arxiv-stamp-Neural-Inspired%20Spectral-Temporal.pdf) | [🔗 recursion-intelligence.org/post-bio-ai-epistemics-v1n2-010a.html](https://recursion-intelligence.org/post-bio-ai-epistemics-v1n2-010a.html) |
 
 
 ---
