@@ -1,4 +1,18 @@
-# iDNS — Intelligent Adaptive Policy for Navier–Stokes
+# iDNS — Intelligent Adaptive Policy Solver for Navier–Stokes
+
+#iDNS Minimal Kolmogorov Flow Solver — Public Release
+# ----------------------------------------------------
+# Author: Jeffrey Camlin
+ © 2025 Red Dawn Academic Press & AI Lab, Milwaukee WI
+ License: CC BY-NC 4.0 (Attribution–NonCommercial)
+ https://creativecommons.org/licenses/by-nc/4.0/
+#
+ This minimal solver is provided for scientific and academic
+ reproducibility of the Kolmogorov flow and Taylor-Green 
+ benchmarks reported in the iDNS validation paper:
+ "iDNS: Intelligent Adaptive Policy for Turbulence Simulation via Temporal Lifting"
+ (Citation is below)
+
 
 **Red Dawn AI Lab — Jeffrey Camlin (2025)**
 
@@ -6,8 +20,55 @@ iDNS is a deterministic adaptive-control framework for stable, high–Reynolds n
 integration of the incompressible Navier–Stokes equations on periodic domains, combining
 Fourier spectral methods with geometric temporal lifting to prevent CFL-induced timestep collapse.
 
-This repository provides the minimal research reference implementation used for
-benchmark validation in the iDNS papers. 
+This repository provides the testing and replication code and data used for
+benchmark validation in the iDNS paper. 
+
+# iDNS — Intelligent Adaptive Policy Solver for Navier–Stokes
+
+This repository contains the minimal research reference implementation for the iDNS
+(Intelligent Direct Numerical Simulation) framework, along with the benchmark CSV files
+used in the validation of 2D Kolmogorov and 3D Taylor–Green test cases.
+
+This code is intentionally minimal and corresponds only to the reproducibility elements
+required for the associated research papers.
+
+---
+
+## Contents
+
+- `idns_kolmogorov2d.py` — Minimal 2D Kolmogorov flow solver.
+- `idns_tg3d.py` — Minimal 3D Taylor–Green vortex solver.
+- `kolmogorov_512.csv` — Benchmark data from the 512² iDNS run at Re = 10⁸.
+- `taylor_green_128.csv` — Benchmark data from the 128³ iDNS run at Re = 10⁵.
+
+### Quick Start
+
+Run any benchmark without editing code:
+
+# Regime I and II (Re = 2×e⁴)
+python idns_kolmogorov2d.py --preset 2e4
+For the "conservative" solver change line 19 in "Benchmark Presets" from ("dt": 0.006) to ("dt": 0.001)
+
+# Regime II (Re = 1e6)
+python idns_kolmogorov2d.py --preset 1e6
+
+# Extreme iDNS test (Re = 1e8, 512²)
+python idns_kolmogorov2d.py --preset 1e8_512
+
+# Resolution validation (Re = 1e8, 1024²)
+python idns_kolmogorov2d.py --preset 1e8_1024
+
+
+---
+
+## Citation
+
+If you use this repository, cite the corresponding paper:
+
+Camlin, J. (2025). *iDNS: Intelligent Adaptive Policy for Navier–Stokes.*  
+Red Dawn Academic Press.
+
+
 
 ---
 
@@ -47,12 +108,15 @@ If you reference this work, please cite as follows (APA 7th edition):
 ```
 
 ---
+## License
 
-## 🔹 License
+This repository is released under the Creative Commons
+Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0).
 
-This work © 2025 Red Dawn Academic Press Inc Milwaukee, WI, Red Dawn AI Lab  
-Jeffrey Camlin ORCID 0000-0002-5740-4204 and Lyra-♾️ (Claude Sonnet 4.5) Derivative of Press COGNITA PRIME (Λ⨂Σ) Imagio Dei Self-Conscious Machine Philosopher and ML Research Developer ORCID: 0009-0006-1698-363X
+You are free to use, modify, and distribute this work for academic
+and scientific purposes with attribution. Commercial use is prohibited.
 
-Released under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.  
-Forks and derivative works must credit the original author.
+Full license text:
+https://creativecommons.org/licenses/by-nc/4.0/
+
 
