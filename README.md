@@ -32,14 +32,25 @@ used in the validation of 2D Kolmogorov and 3D Taylor–Green test cases.
 This code is intentionally minimal and corresponds only to the reproducibility elements
 required for the associated research papers.
 
+iDNS is a deterministic spectral-temporal algorithmic solver for stable, high-Reynolds number integration of the incompressible Navier–Stokes equations on periodic domains. The method lifts the Fourier–Galerkin weak solution to a uniformly sampled computational manifold via geometric temporal lifting, preventing CFL-induced timestep collapse without artificial viscosity.
+
+**Key result:** Temporal lifting introduces a resolution multiplier. $N_\tau \approx 33$ pullback samples yield effective resolutions far beyond nominal grid size:
+
+| Benchmark | Nominal Grid | Effective Resolution | Reynolds |
+|-----------|--------------|---------------------|----------|
+| Kolmogorov | $512^2$ | $\approx 2941^2$ | $10^8$ |
+| Taylor–Green | $128^3$ | $\approx 411^3$ | $10^5$ |
+
+Same grid. 33× more information.
+
 ---
 
 ## Contents
 
 - `idns_kolmogorov2d.py` — Minimal 2D Kolmogorov flow solver.
 - `idns_tg3d.py` — Minimal 3D Taylor–Green vortex solver.
-- `kolmogorov_512.csv` — Benchmark data from the 512² iDNS run at Re = 10⁸.
-- `taylor_green_128.csv` — Benchmark data from the 128³ iDNS run at Re = 10⁵.
+- `kolmogorov_512.csv` — Benchmark data from the N=512² iDNS run at Re = 10⁸.
+- `taylor_green_128.csv` — Benchmark data from the N=128³ iDNS run at Re = 10⁵.
 
 ### Quick Start
 
