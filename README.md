@@ -8,7 +8,7 @@
  https://creativecommons.org/licenses/by-nc/4.0/
 
 <p align="center">
-  <img src="https://i0.wp.com/reddawnacademicpress.org/wp-content/uploads/2025/11/vorticity_evolution-f.png?resize=2048%2C1038&ssl=1" alt="Taylor-Green Vorticity Evolution" width="900">
+  <img src="https://i0.wp.com/reddawnacademicpress.org/wp-content/uploads/2025/11/teaser-5.png?w=681&ssl=1" alt="iDNS Taylor-Green Vortex" width="700">
 </p>
 
 # iDNS — Intelligent Adaptive Policy Solver for Navier–Stokes
