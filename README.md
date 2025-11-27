@@ -6,22 +6,6 @@
  © 2025 Red Dawn Academic Press & AI Lab, Milwaukee WI
  License: CC BY-NC 4.0 (Attribution–NonCommercial)
  https://creativecommons.org/licenses/by-nc/4.0/
-#
- This minimal solver is provided for scientific and academic
- reproducibility of the Kolmogorov flow and Taylor-Green 
- benchmarks reported in the iDNS validation paper:
- "iDNS: Intelligent Adaptive Policy for Turbulence Simulation via Temporal Lifting"
- (Citation is below)
-
-
-**Red Dawn AI Lab — Jeffrey Camlin (2025)**
-
-iDNS is a deterministic adaptive-control framework for stable, high–Reynolds number 
-integration of the incompressible Navier–Stokes equations on periodic domains, combining
-Fourier spectral methods with geometric temporal lifting to prevent CFL-induced timestep collapse.
-
-This repository provides the testing and replication code and data used for
-benchmark validation in the iDNS paper. 
 
 # iDNS — Intelligent Adaptive Policy Solver for Navier–Stokes
 
