@@ -7,6 +7,8 @@
  License: CC BY-NC 4.0 (Attribution–NonCommercial)
  https://creativecommons.org/licenses/by-nc/4.0/
 
+ ![iDNS Banner]([https://your-url.com](https://i0.wp.com/reddawnacademicpress.org/wp-content/uploads/2025/11/vorticity_evolution-f.png?resize=2048%2C1038&ssl=1)/image.png)
+
 # iDNS — Intelligent Adaptive Policy Solver for Navier–Stokes
 
 Abstract
