@@ -1,6 +1,6 @@
 # iDNS — Intelligent Adaptive Policy Solver for Navier–Stokes
 
-#iDNS Minimal Kolmogorov Flow Solver — Public Release
+#iDNS Minimal Kolmogorov / Taylor-Green Flow Solver — Public Release
 # ----------------------------------------------------
 # Author: Jeffrey Camlin
  © 2025 Red Dawn Academic Press & AI Lab, Milwaukee WI
