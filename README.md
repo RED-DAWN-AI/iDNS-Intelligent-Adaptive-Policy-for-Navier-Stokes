@@ -208,6 +208,10 @@ pip install numpy matplotlib
 No GPU required. No parallelization required. Runs on consumer hardware.
 
 ---
+<p align="center">
+  <img src="https://[i0.wp.com/reddawnacademicpress.org/wp-content/uploads/2025/11/teaser-5.png](https://reddawnacademicpress.org/idns-ad-hoc-page/)?w=681&ssl=1" alt="iDNS Taylor-Green Vortex" width="700">
+</p>
+
 
 ## Citation
 
