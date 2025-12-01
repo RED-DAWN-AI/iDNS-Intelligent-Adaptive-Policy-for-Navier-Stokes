@@ -191,16 +191,14 @@ python idns_v1_public_tg.py
 python idns_v1_public_kolmogorov.py
 ```
 
-Example: Run at Re = 10⁸ (Kolmogorov)
+Example: Run at Re = 10⁸ (Kolmogorov) so Run with dt = 0.006, t_end = 100, Re = 1e8
 
-In the code config:
-Re = 1e8
+In the code config se your resolution:
 N = 1024
-dt_base = 0.006
 
-Then command line:
+Then command line with parameters:
 
-python (or py, or python3) idns_kolmogorov2d.py
+python idns_v1_public_kolmogorov.py --mode idns --Re 1e8 --t_end 100
 
 There will be console updates you can watch at every step with various info. 
 
