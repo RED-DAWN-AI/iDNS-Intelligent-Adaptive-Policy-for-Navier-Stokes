@@ -202,6 +202,8 @@ Then command line:
 
 python (or py, or python3) idns_kolmogorov2d.py
 
+There will be console updates you can watch at every step with various info. 
+
 Results are saved to `./results/` by default.
 
 ---
