@@ -217,13 +217,17 @@ No GPU required. No parallelization required. Runs on consumer hardware.
 
 If you use iDNS in your research, please cite:
 
-```bibtex
-@article{camlin2025idns,
-  title={iDNS: Intelligent Adaptive Policy for Turbulence Simulation via Temporal Lifting},
-  author={Camlin, Jeffrey},
-  year={2025},
-  publisher={Red Dawn Academic Press}
+@article{Camlin2025_iDNS_RASI_Code,
+  author       = {Camlin, Jeffrey},
+  title        = {iDNS: Intelligent Regularity-Adaptive Spectral Integration (RASI) Policy for Deterministic Flow Dynamics -- Code and Data Repository},
+  year         = {2025},
+  publisher    = {Red Dawn Academic Press},
+  doi          = {10.5281/zenodo.17730872},
+  url          = {https://doi.org/10.5281/zenodo.17730872},
+  orcid        = {0000-0002-5740-4204},
+  note         = {Code and dataset release accompanying the RASI/iDNS solver methodology}
 }
+
 ```
 
 ---
