@@ -191,6 +191,17 @@ python idns_v1_public_tg.py
 python idns_v1_public_kolmogorov.py
 ```
 
+Example: Run at Re = 10⁸ (Kolmogorov)
+
+In the code config:
+Re = 1e8
+N = 1024
+dt_base = 0.006
+
+Then command line:
+
+python (or py, or python3) idns_kolmogorov2d.py
+
 Results are saved to `./results/` by default.
 
 ---
