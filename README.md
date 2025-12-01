@@ -350,9 +350,6 @@ This software is provided for scientific and academic reproducibility. Commercia
 If the whole block suddenly becomes normal text →  
 **YES, the issue was a missing closing fence BEFORE this section.**
 
----
-
-
 ## 🔹 Citation
 
 ⭐ 📚 Citation Block (3 Papers — For README / GitHub / Papers)
