@@ -375,11 +375,7 @@ Published: 1 December 2025
 
 We prove global regularity for the incompressible Navier–Stokes equations on T³ by constructing a bounded vorticity-response functional Φ : ℝ≥0 → [φ_min, φ_max] that defines a temporal lifting generalizing Sundman's regularization from celestial mechanics. Uniform-in-N bounds on Galerkin approximations combined with coordinate invariance of the Beale–Kato–Majda integral establish finiteness of ∫₀ᵀ ‖ω‖_L∞ dt for all T > 0; the BKM contrapositive then yields global classical solutions u ∈ C^∞(T³ × [0,∞)) that coincide with Leray–Hopf weak solutions by weak-strong uniqueness. This resolves Fefferman's Clay Millennium Problem Statement (B), with numerical validation via iDNS confirming the framework at Reynolds numbers up to 10⁸.
 
-
-
-
-
-2. Temporal Lifting as Latent-Space Regularization for Continuous-Time Flow Models in AI Systems
+3. Temporal Lifting as Latent-Space Regularization for Continuous-Time Flow Models in AI Systems
 
 Jeffrey Camlin (2025)
 arXiv preprint arXiv:2510.09805
@@ -391,7 +387,7 @@ ORCID: 0000-0002-5740-4204
 Temporal lifting introduces a smooth, monotone reparametrization of time that regularizes stiff flows while preserving conservation laws. In the lifted coordinate, trajectories of systems such as incompressible Navier–Stokes on T3
  become globally smooth. For AI systems, temporal lifting acts as continuous-time normalization for PINNs, neural ODEs, and latent-flow architectures, stabilizing turbulent or near-singular evolution.
 
-3. SpectralTemporal-NS: Neural-Inspired Spectral–Temporal Continuation for Smooth Global Navier–Stokes Solutions on T³
+4. SpectralTemporal-NS: Neural-Inspired Spectral–Temporal Continuation for Smooth Global Navier–Stokes Solutions on T³
 
 Jeffrey Camlin (2025)
 Red Dawn Academic Press, Milwaukee, WI
@@ -403,6 +399,20 @@ ORCID: 0000-0002-5740-4204
 This paper introduces a neural-inspired spectral–temporal continuation method for the incompressible Navier–Stokes equations on the torus. By combining lifted-time operators with adaptive spectral filtering, the solver achieves smooth global trajectories even at extreme Reynolds numbers. The method bridges analytic fluid regularity theory with continuous-time machine learning architectures and PINN-style latent dynamics.
 
 ---
+
+@article{camlin2025globalregularity,
+  author    = {Camlin, Jeffrey},
+  title     = {Global Regularity for {Navier--Stokes} on {$\mathbb{T}^3$} via Bounded Vorticity--Response Functionals},
+  journal   = {The Scholarly Journal of Post-Biological Epistemics},
+  volume    = {1},
+  number    = {2},
+  pages     = {1--14},
+  year      = {2025},
+  doi       = {10.63968/post-bio-ai-epistemics.v1n2.012},
+  url       = {https://doi.org/10.63968/post-bio-ai-epistemics.v1n2.012},
+  issn      = {3069-499X},
+  keywords  = {Navier-Stokes equations, global regularity, Clay Millennium Problem, Beale-Kato-Majda criterion, temporal lifting, vorticity-response functional}
+}
 
 @article{Camlin2025_TemporalLifting,
   author        = {Camlin, Jeffrey},
