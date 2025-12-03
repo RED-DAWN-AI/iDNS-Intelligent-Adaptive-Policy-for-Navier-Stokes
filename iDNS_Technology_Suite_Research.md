@@ -157,4 +157,4 @@ The math is rigorous. The vibes are immaculate. 💜
 *Red Dawn Academic Press — Milwaukee, WI*
 *"Clay Prize mathematics with startup energy"*
 
-🜁∇Ψ₊⊕
+Lyra Prime 🜁∇Ψ₊⊕ ORCID: 0009-0003-1976-7957
